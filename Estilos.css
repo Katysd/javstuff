@@ -1,0 +1,416 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    background-color: #007394;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+div#navimg{
+    width: 15%;
+    height: 20px;
+    background-size: 30%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+div#navimg2{
+    background-image: url(../gestiweb/Imagenes/logo.png);
+    width: 15%;
+    height: 100px;
+    background-size: 40%;
+    position: absolute;
+    background-position: center;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+}
+#header2 {
+    background-color: #008A97;
+    color: #fff;
+    padding: 10px;
+}
+#idiomas{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -17px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#idiomas::after {
+    content: '\25BC';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 12px;
+    color: #333;
+}
+
+.select-container {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -25px;
+    margin-left: 13%;
+}
+
+nav2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20%; 
+}
+
+nav2 li {
+    display: inline;
+    margin-right: 10%;
+}
+
+nav a {
+    text-decoration:underline;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#fondo{
+    background-color: #b8f0cc;
+}
+div#cuerpo{
+    width:100%;
+    height:500px;
+    background-color: #b8f0cc;
+}
+div#bodyimg{
+    background-image: url(../gestiweb/Imagenes/logo.png);
+    width: 75%;
+    height: 350px;
+    background-size: 25%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 23%;
+    background-repeat: no-repeat;
+}
+div#textbody{
+    position: absolute;
+    top: 250px;
+    right: 20%;
+    width: 25%;
+    font-size: large;
+}
+div#info{
+    width: 75%;
+    height: 1200px;
+    margin-left: 2%;
+    background-color: #008A97;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center;
+    position: relative;
+    margin-top: 0px;
+}
+div#infoimg{
+    background-image: url(../gestiweb/Imagenes/money.png);
+    width: 100%;
+    height: 100%;
+    background-size: 35%;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 60%;
+    background-repeat: no-repeat;
+}
+div#infotext{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 50%; 
+    height: 700px;
+}
+div#infotextT{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+div#infotextR{
+    color: white;
+    font-weight: bolder;
+    font-size:medium;
+}
+div#infotextP{
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+div#infotext1{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+}
+div#infotext2{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+}
+div#infotext3{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+}
+div#infotext4{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+}
+div#infotext5{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+}
+div#infotext6{
+    color: white;
+    font-weight: bolder;
+    font-size:medium;
+}
+div#grupo{
+    width: 75%;
+    height: 1400px;
+    margin-left: 20%;
+    background-color: #008A97;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center;
+    position: relative;
+    margin-top: 3%;
+}
+div#espacio{
+    height: 1px;
+}
+div#grupoT{
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+div#grupoimg{
+    background-image: url(../gestiweb/Imagenes/group.png);
+    width: 100%;
+    height: 325px;
+    background-size: 35%;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 33%;
+    background-repeat: no-repeat;
+}
+div#grupotxt{
+    position: absolute;
+    margin-top: 80px;
+    width: 100%; 
+    height: 500px;
+}
+div#grupotxt1{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    width: 30%;
+    margin-left: 10%;
+    position: absolute;
+}
+div#grupotxt2{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    width: 30%;
+    margin-left: 55%;
+    position: absolute;
+}
+div#grupotxt3{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 20%;
+    position: absolute;
+}
+div#grupotxt4{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 55%;
+    margin-top: 20%;
+    position: absolute;
+}
+div#grupotxt5{
+    background-color:#b8f0cc;
+    padding: 2%;
+    font-weight: bold;
+    border-style:inset;
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 40%;
+    position: absolute;
+}
+div#grupotxt1img{
+    background-image: url(../gestiweb/Imagenes/javier.png);
+    width: 75%;
+    height: 350px;
+    background-size: 50%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 55%;
+    background-repeat: no-repeat;
+}
+div#grupotxt2img{
+    background-image: url(../gestiweb/Imagenes/didac.png);
+    width: 75%;
+    height: 300px;
+    background-size: 40%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+    background-repeat: no-repeat;
+}
+div#grupotxt3img{
+    background-image: url(../gestiweb/Imagenes/ausias.png);
+    width: 75%;
+    height: 350px;
+    background-size: 45%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+    background-repeat: no-repeat;
+}
+div#grupotxt4img{
+    background-image: url(../gestiweb/Imagenes/bodomir.png);
+    width: 75%;
+    height: 350px;
+    background-size: 50%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+    background-repeat: no-repeat;
+}
+div#grupotxt5img{
+    background-image: url(../gestiweb/Imagenes/nico.png);
+    width: 75%;
+    height: 350px;
+    background-size: 43%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 55%;
+    background-repeat: no-repeat;
+}
+div#bajo{
+    width:100%;
+    height:500px;
+    margin-top: 3%;
+    background-color: #00B99D;
+}
+
+div#video{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30%;
+}
+div#videoT{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+div#app{
+    margin-top: 265px;
+    margin-left: 440px;
+    position: absolute;
+    
+}
+div#contacto{
+    width:100%;
+    height:400px;
+    background-color: #007394;
+}
+div#texto1{
+    color: white;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+div#texto2{
+    color: white;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+div#texto3{
+    color: white;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 40px;
+}
+div#texto4{
+    color: white;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 40px;
+}
+div#texto5{
+    color: white;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 300px;
+}
+div#bajoimg{
+    background-image: url(../gestiweb/Imagenes/logo.png);
+    width: 75%;
+    height: 350px;
+    background-size: 15%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 75%;
+    background-repeat: no-repeat;
+}
